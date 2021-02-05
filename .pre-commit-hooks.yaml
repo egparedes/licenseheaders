@@ -1,7 +1,6 @@
--   id: licenseheaders
+-   id: fix-license-headers
+    name: Fix license headers
     language: python
-    name: licenseheaders
-    entry: licenseheaders
-    args: ["-t", ".copyright.tmpl", "-cy"]
-    files: ''
-    minimum_pre_commit_version: 0.15.0
+    entry: fix-license-headers
+    description: 'Add license header to the top of source files'
+    types: [python]
